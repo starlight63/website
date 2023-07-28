@@ -1,4 +1,44 @@
 body {
     background-color: darkmagenta;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+}
+
+
+.section {
+    margin: auto;
+    width: 50%;
+    display: block;
+}
+
+.section-item {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+#copyright-notice {
+    width: 100%;
+    text-align: center;
+    position:static;
+    background-color: darkmagenta;
+    bottom: 0;
+    left: 0;
+}
+
+#icon {
+    width: 64px;
+    height: 64px;
+}
+
+#content {
+    padding-bottom: 10%;
 }
